@@ -1,0 +1,109 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    padding: 0.5rem;
+    background-color: #252526;
+    color: #d4d4d4;
+    border: 1px solid #3c3c3c;
+    box-sizing: border-box;
+    margin-top: 0.5rem;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    
+}
+
+input {
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background-color: #252526;
+    color: #d4d4d4;
+    border: 1px solid #3c3c3c;
+    box-sizing: border-box;
+}
+
+.process-button {
+    display: block;
+    margin-top: 1.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #007acc;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.process-button:hover {
+    background-color: #0057a6;
+}
+
+#segments-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.instructions {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 4rem;
+    color: #d4d4d4;
+}
+
+.segment-button {
+    cursor: pointer;
+    border: none;
+    background-color: #007acc;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.segment-button:hover {
+    background-color: #0057a6;
+}
+
+.segment-button:disabled {
+    background-color: #5a5a5a;
+}
+
+
+
+
+/* Update the textarea, input CSS rule */
+textarea,
+input {
+    font-family: 'Consolas', 'Courier New', monospace;
+}
+
