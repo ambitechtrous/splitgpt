@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Segmenter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SplitGPT</h1>
+        <label for="input-text">Input Text:</label>
+        <textarea id="input-text" rows="10" placeholder="Paste your large text block here"></textarea>
+        <label for="custom-pretext">Custom Pretext:</label>
+        <input type="text" id="custom-pretext" placeholder="Enter custom pretext">
+        <label for="segment-size">Segment Size (characters):</label>
+        <input type="number" id="segment-size" value="4000" placeholder="Enter segment size">
+        <button id="process-text" class="process-button">Process Text >>></button>
+        <label class="instructions">Your Segments (click to copy):</label>
+        <div id="segments-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
